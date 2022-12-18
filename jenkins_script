@@ -1,0 +1,6 @@
+node {
+    
+    stage('Git checkout'){
+        git branch: 'main', url: 'https://github.com/paramsme26/kubernetes_proj.git'
+    }
+}
